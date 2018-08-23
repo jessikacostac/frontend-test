@@ -60,7 +60,7 @@ export class View extends Control.Component<{}> {
   @Class.Private()
   private skeleton: HTMLDivElement = (
     <div class="panel">
-      <img src="/images/logo-colorful.png" />
+      <img class="logo" src="/images/logo-colorful.png" />
       {this.form}
     </div>
   ) as HTMLDivElement;
