@@ -28,27 +28,27 @@ export class View extends Control.Component<{}> {
     <form class="form">
       <div class="field">
         <label>First name:</label>
-        <input type="text" />
+        <input type="text" placeholder="First name" />
       </div>
       <div class="field">
         <label>Last name:</label>
-        <input type="text" />
+        <input type="text" placeholder="Last name" />
       </div>
       <div class="field">
         <label>Username:</label>
-        <input type="text" />
+        <input type="text" placeholder="Username" />
       </div>
       <div class="field">
         <label>Email:</label>
-        <input type="text" />
+        <input type="text" placeholder="Email"/>
       </div>
       <div class="field">
         <label>Phone:</label>
-        <input type="text" />
+        <input type="text" placeholder="Phone" />
       </div>
       <div class="field">
         <label>Password:</label>
-        <input type="text" />
+        <input type="text" placeholder="Password" />
       </div>
       <button type="submit">Submit form</button>
     </form>
