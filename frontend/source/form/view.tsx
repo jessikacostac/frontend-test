@@ -50,6 +50,10 @@ export class View extends Control.Component<{}> {
         <label>Password:</label>
         <input type="text" placeholder="Password" />
       </div>
+      <div class="field">
+        <label>Confirm password:</label>
+        <input type="text" placeholder="Confirm password" />
+      </div>
       <button type="submit">Submit form</button>
     </form>
   ) as HTMLFormElement;
